@@ -1,4 +1,18 @@
 ---
 label: Covid
 hide_body: false
-fields: []
+fields:
+- name: covid
+  type: text
+  config:
+    required: false
+  label: Covid
+- name: kjnk
+  type: blocks
+  label: kjnk
+  template_types:
+  - covid
+  - site-info
+  config:
+    min: 
+    max: 
